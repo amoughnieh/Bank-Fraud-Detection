@@ -386,8 +386,8 @@ Building on the successes and limitations of this project, future research could
   <img src="output/(7) Ridge/Confusion Matrix - Ridge.png" width="450">
 </p>
 <p align="left">
-  <img src="output/(7) Ridge/Score Plots - Ridge - Imbalanced Training - w [customer merchant category amount fraud_ratio - merch_spend cat_spend total_trans].PNG" width="450">
-  <img src="output/(7) Ridge/Sigmoid - Ridge - Imbalanced Training - w [customer merchant category amount fraud_ratio - merch_spend cat_spend total_trans].PNG" width="450">
+  <img src="output/(7) Ridge/Score Plots - Ridge - Imbalanced Training - w customer merchant category amount fraud_ratio - merch_spend cat_spend total_trans.png" width="450">
+  <img src="output/(7) Ridge/Sigmoid - Ridge - Imbalanced Training - w customer merchant category amount fraud_ratio - merch_spend cat_spend total_trans.png" width="450">
 </p>
 
 <br>
@@ -398,8 +398,8 @@ Building on the successes and limitations of this project, future research could
   <img src="output/(7) SVM/Confusion Matrix - SVM.png" width="450">
 </p>
 <p align="left">
-  <img src="output/(7) SVM/Score Plots - SVM - Imbalanced Training - w [customer merchant category amount fraud_ratio - merch_spend cat_spend total_trans] bias=0 C=1.PNG" width="450">
-  <img src="output/(7) SVM/Sigmoid - SVM - Imbalanced Training - w [customer merchant category amount fraud_ratio - merch_spend cat_spend total_trans] bias=0 C=1.PNG" width="450">
+  <img src="output/(7) SVM/Score Plots - SVM - Imbalanced Training - w customer merchant category amount fraud_ratio - merch_spend cat_spend total_trans bias=0 C=1.png" width="450">
+  <img src="output/(7) SVM/Sigmoid - SVM - Imbalanced Training - w customer merchant category amount fraud_ratio - merch_spend cat_spend total_trans bias=0 C=1.png" width="450">
 </p>
 
 
@@ -409,8 +409,8 @@ Building on the successes and limitations of this project, future research could
   <img src="output/(7) XGB/Confusion Matrix - XGB.png" width="450">
 </p>
 <p align="left">
-  <img src="output/(7) XGB/Score Plots - XGB - Imbalanced Training - w [customer merchant category amount fraud_ratio - merch_spend cat_spend total_trans].PNG" width="450">
-  <img src="output/(7) XGB/Sigmoid - XGB - Imbalanced Training - w [customer merchant category amount fraud_ratio - merch_spend cat_spend total_trans].PNG" width="450">
+  <img src="output/(7) XGB/Score Plots - XGB - Imbalanced Training - w customer merchant category amount fraud_ratio - merch_spend cat_spend total_trans.png" width="450">
+  <img src="output/(7) XGB/Sigmoid - XGB - Imbalanced Training - w customer merchant category amount fraud_ratio - merch_spend cat_spend total_trans.png" width="450">
 </p>
 
 
