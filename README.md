@@ -383,11 +383,11 @@ Building on the successes and limitations of this project, future research could
 
 
 <p align="left">
-  <img src="output/(7) Unbalanced cust merch cat amnt fraud_ratio merch_spend cat_spend total_trans Ridge/Ridge.png" width="450">
+  <img src="output/(7) Ridge/Confusion Matrix - Ridge.png" width="450">
 </p>
 <p align="left">
-  <img src="output/(7) Unbalanced cust merch cat amnt fraud_ratio merch_spend cat_spend total_trans Ridge/SCOREP~1.PNG" width="450">
-  <img src="output/(7) Unbalanced cust merch cat amnt fraud_ratio merch_spend cat_spend total_trans Ridge/SIGMOI~1.PNG" width="450">
+  <img src="output/(7) Ridge/Score Plots - Ridge - Imbalanced Training - w [customer merchant category amount fraud_ratio.. - ..merch_spend cat_spend total_trans].PNG" width="450">
+  <img src="output/(7) Ridge/Sigmoid - Ridge - Imbalanced Training - w [customer merchant category amount fraud_ratio.. - ..merch_spend cat_spend total_trans].PNG" width="450">
 </p>
 
 <br>
@@ -395,22 +395,22 @@ Building on the successes and limitations of this project, future research could
 ## SVM - Model (7):
 
 <p align="left">
-  <img src="output/(7) Unbalanced cust merch cat amnt fraud_ratio merch_spend cat_spend total_trans SVM/SVM.png" width="450">
+  <img src="output/(7) SVM/Confusion Matrix - SVM.png" width="450">
 </p>
 <p align="left">
-  <img src="output/(7) Unbalanced cust merch cat amnt fraud_ratio merch_spend cat_spend total_trans SVM/SCOREP~1.PNG" width="450">
-  <img src="output/(7) Unbalanced cust merch cat amnt fraud_ratio merch_spend cat_spend total_trans SVM/SIGMOI~1.PNG" width="450">
+  <img src="output/(7) SVM/Score Plots - SVM - Imbalanced Training - w [customer merchant category amount fraud_ratio.. - ..merch_spend cat_spend total_trans] bias=0 C=1.PNG" width="450">
+  <img src="output/(7) SVM/Sigmoid - SVM - Imbalanced Training - w [customer merchant category amount fraud_ratio.. - ..merch_spend cat_spend total_trans] bias=0 C=1.PNG" width="450">
 </p>
 
 
 ## XGBoost - Model (7):
 
 <p align="left">
-  <img src="output/(7) Unbalanced cust merch cat amnt fraud_ratio merch_spend cat_spend total_trans XGB/XGB.png" width="450">
+  <img src="output/(7) XGB/Confusion Matrix - XGB.png" width="450">
 </p>
 <p align="left">
-  <img src="output/(7) Unbalanced cust merch cat amnt fraud_ratio merch_spend cat_spend total_trans XGB/SCOREP~1.PNG" width="450">
-  <img src="output/(7) Unbalanced cust merch cat amnt fraud_ratio merch_spend cat_spend total_trans XGB/SIGMOI~1.PNG" width="450">
+  <img src="output/(7) XGB/Score Plots - XGB - Imbalanced Training - w [customer merchant category amount fraud_ratio.. - ..merch_spend cat_spend total_trans].PNG" width="450">
+  <img src="output/(7) XGB/Sigmoid - XGB - Imbalanced Training - w [customer merchant category amount fraud_ratio.. - ..merch_spend cat_spend total_trans].PNG" width="450">
 </p>
 
 
