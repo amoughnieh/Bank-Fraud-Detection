@@ -1,0 +1,22 @@
+######### XGB - Imbalanced Training - w [customer merchant category amount fraud_ratio.. - ..merch_spend cat_spend total_trans] #########
+============================================
+Confusion Matrix - Optimal Threshold = 0.364
+============================================
+
+     0    1
+117251  191
+   192 1295
+
+=================================================
+Classification Report - Optimal Threshold = 0.364
+=================================================
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    117442
+           1       0.87      0.87      0.87      1487
+
+    accuracy                           1.00    118929
+   macro avg       0.93      0.93      0.93    118929
+weighted avg       1.00      1.00      1.00    118929
+
