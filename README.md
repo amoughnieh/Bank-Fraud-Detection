@@ -147,7 +147,7 @@ Where:
 
 The intuition behind this regularization is that it constrains the model's search for optimal coefficients. Without regularization, the optimal solution is likely to result in large coefficients, which can lead to overfitting, especially in sparse dimensions. By imposing the $$l_2$$ norm, we effectively shrink these coefficients, ensuring that the model generalizes better.
 
-Below, Figure 2 illustrates this concept. The $$x$$ and $$y$$ axes represent two dimensions (e.g., 'C1743702978' and 'C1404665203'), with ellipses representing the objective function's contour lines. The circle represents the $$l_2$$ norm constraint. The optimal solution is where the contour lines and the circle intersect. If the circle were larger (weaker regularization), the solution would be closer to the unconstrained solution. Conversely, a smaller circle (stronger regularization) would result in smaller estimated coefficients.
+Below, Figure 2 illustrates this concept. The $$x$$ and $$y$$ axes represent two dimensions (e.g., 'C1743702978' and 'C1404665203'), with ellipses representing the objective function's contour lines. The circle represents the $$l_2$$ norm constraint. The optimal solution is where the contour lines and the circle intersect (FEASIBLE minimum). If the circle were larger (weaker regularization), the solution would be closer to the unconstrained solution (INFEASIBLE minimum). Conversely, a smaller circle (stronger regularization) would result in smaller estimated coefficients.
 
 <p align="center"> <img src="output/Ridge.png"> </p>    
 <p align="center"> <em>Figure 2: Ridge Regression Illustration</em> </p>
