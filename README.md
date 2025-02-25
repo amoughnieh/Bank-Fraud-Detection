@@ -160,9 +160,9 @@ While ridge regression can compensate for the lack of information in some of the
 
 #### 2) Group LASSO (Group-wise $$l_1$$ Regularization)
 
-Group LASSO is a variant of LASSO regression that applies $$l_1$$ regularization across predefined groups of variables. This method is particularly useful when variables belong to meaningful groups, such as categories or subcategories. Group LASSO encourages sparsity between the groups, shrinking the coefficients of some groups to zero while leaving others intact. Additionally, $$l_1$$ regularization can also be applied within each group, promoting sparsity within them.
+Group LASSO is a variant of LASSO regression that applies $$l_1$$ regularization across predefined groups of variables. This method is particularly useful when variables belong to meaningful groups, such as categories or subcategories. Group LASSO encourages sparsity between the groups, shrinking the coefficients of some groups to zero while leaving others intact. Additionally, $$l_1$$ regularization can also be applied within each group, promoting sparsity between subcategories.
 
-Group LASSO mitigates the curse of dimensionality by introducing sparsity among the groups, reducing the effective number of dimensions. Variables or groups with small or zero coefficients are effectively removed from the model, leading to a simpler, more interpretable solution.
+Group LASSO mitigates the curse of dimensionality by introducing sparsity among the groups, reducing the effective number of dimensions. Variables or groups of variables with small or zero coefficients are effectively removed from the model, leading to a simpler, more interpretable solution.
 
 The optimization problem for Group LASSO is similar to that of LASSO regression but adds a group structure to the variables. The formulation is as follows:
 
@@ -170,12 +170,12 @@ The optimization problem for Group LASSO is similar to that of LASSO regression 
 
 Where:
 - $$L$$ is the loss function (e.g., mean squared error),
-- $$\left|\beta\right|_1$$ is the $$l_1$$ norm applied to the coefficients within each group,
-- $$\left|\beta_{group}\right|_2$$ is the $$l_2$$ norm of the coefficients within each group,
+- $$\left|\beta\right|_1$$ is the $$l_1$$ norm applied to the coefficients within each group (between subcategories),
+- $$\left|\beta_{group}\right|_2$$ is the $$l_2$$ norm of the coefficients within each group (between subcategories),
 - $$\lambda_1$$ controls the sparsity of the coefficients within each group,
 - $$\lambda_2$$ controls the sparsity between groups.
 
-The $l_2$ norm within each group shrinks the coefficients but does not lead to sparsity between the groups. If we unpack the second term in the formula above, each group can be treated as a whole unit, essentially acting as $l_1$ norm between the groups, and as a result promotes group sparsity, as you can see below
+The $l_2$ norm within each group shrinks the coefficients of the subcategories but does not lead to sparsity. However, when we unpack the second term in the formula above, each group can be treated as a whole unit, essentially acting as $l_1$ norm between the groups, and as a result promotes group sparsity, as you can see below
      
 <p align="center">$\lambda_2 \left(\displaystyle\sqrt{\mathbf{\beta}_{a_1}^2 + \dots + \beta_{a_m}^2} + \displaystyle\sqrt{\mathbf{\beta}_{b_1}^2 + \dots + \beta_{b_n}^2} + \dots + \displaystyle\sqrt{\mathbf{\beta}_{z_1}^2+ \dots + \beta_{z_k}^2}\right)$</p>
           
