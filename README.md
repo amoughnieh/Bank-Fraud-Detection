@@ -173,7 +173,7 @@ Where:
 - $$\left|\beta\right|_1$$ is the $$l_1$$ norm applied to the coefficients within each group (between subcategories),
 - $$\left|\beta_{group}\right|_2$$ is the $$l_2$$ norm of the coefficients within each group (between subcategories),
 - $$\lambda_1$$ controls the sparsity of the coefficients within each group,
-- $$\lambda_2$$ controls the sparsity between groups.
+- $$\lambda_2$$ controls the sparsity of the coefficients between groups.
 
 The $l_2$ norm within each group shrinks the coefficients of the subcategories but does not lead to sparsity. However, when we unpack the second term in the formula above, each group can be treated as a whole unit, essentially acting as $l_1$ norm between the groups, and as a result promotes group sparsity, as you can see below
      
